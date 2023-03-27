@@ -30,9 +30,14 @@
     font-size: 25px;
   }
 
-  h1 {
+  /* h1 {
     
-    font-size: 25px;
+    position: absolute;
+    width: 140px;
+    height: 19px;
+    left: 0px;
+    top: 0.27px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -40,9 +45,9 @@
     line-height: 21px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-
+    
     color: #FFFFFF;
-    }
+    } */
   
   .toggleButton {
     width: 100%;

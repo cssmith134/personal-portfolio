@@ -1,16 +1,17 @@
 import React from 'react'
 import "../styles/Home.css"
-import Profileimg from"../assets/cooper-smith-porfile.JPG"
+import Profileimg from "../assets/bio-photo1.png"
+
 
 
 function Home() {
   return (
     <div class="top-container">
     <h3>Web Developer</h3>
-    <div>
+    <div className='about-row'>
+      <img id='profile-pic' src={Profileimg} alt="cover"></img>
       <h2>Buildind smart solutions</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna ac placerat vestibulum lectus mauris ultrices eros in cursus. Augue lacus viverra vitae congue eu consequat ac felis donec. Id ornare arcu odio ut sem nulla pharetra diam. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum.</p>
-     
     </div>
     <div className='skills'>
       <h5>SKILLS/PROGRAMS</h5>

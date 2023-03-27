@@ -13,85 +13,98 @@
     
 }
 
+#profile-pic {
+    
+    width: 300px;
+    height: 300px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 h3 {
     width: 123px;
-height: 21px;
+    height: 21px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
 
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
-color: #C5C5C5;
+    color: #C5C5C5;
 
 }
 
 h5 {
     width: 266.46px;
-height: 19.55px;
+    height: 19.55px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.05em;
-text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 
-color: #1782FF;
+    color: #1782FF;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 h2 {
 
-width: 590px;
-height: 172px;
+    width: 590px;
+    height: 172px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 80px;
-line-height: 86px;
-/* or 108% */
-
-
-color: #1782FF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 86px;
+    /* or 108% */
 
 
+    color: #1782FF;
 
-/* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 p {
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
 
-width: 490px;
-height: 128px;
+    width: 490px;
+    height: 128px;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 2;
-flex-grow: 0;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
     color: #C5C5C5;
 }
 
@@ -133,6 +146,14 @@ table {
         text-align: left;
         width: auto;
         
+    }
+  }
+
+  @media only screen and (min-width: 1565px ) {
+    .top-container {
+        text-align: left;
+        width: auto;
+        padding-right: 270px;
     }
   }
 

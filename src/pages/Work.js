@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Work.css";
-import ProfileImg from "../assets/cooper-smith-porfile.JPG"
+import ProfileImg from "../assets/bio-photo1.png"
 
 function Work() {
   return (
