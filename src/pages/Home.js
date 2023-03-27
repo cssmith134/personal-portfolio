@@ -8,7 +8,7 @@ function Home() {
   return (
     <div class="top-container">
     <h3>Web Developer</h3>
-    <div className='about-row'>
+    <div>
       <img id='profile-pic' src={Profileimg} alt="cover"></img>
       <h2>Buildind smart solutions</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna ac placerat vestibulum lectus mauris ultrices eros in cursus. Augue lacus viverra vitae congue eu consequat ac felis donec. Id ornare arcu odio ut sem nulla pharetra diam. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum.</p>
