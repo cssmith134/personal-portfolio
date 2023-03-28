@@ -176,6 +176,15 @@ table {
 
   }
 
+  @media only screen and (max-width: 990px) {
+    #profile-pic {
+        height: 100px;
+        width: 100px;
+        text-align: left;
+        padding-right: 700px;
+    }
+  }
+
   @media only screen and (min-width: 1565px ) {
     .top-container {
         text-align: left;
