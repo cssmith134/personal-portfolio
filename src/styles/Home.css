@@ -118,6 +118,18 @@ p {
     color: #C5C5C5;
 }
 
+.column {
+    width: 100%;
+    float: left;   
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
 table {
     color: #C5C5C5;
     display: flex;
@@ -135,6 +147,8 @@ table {
     flex: none;
     order: 0;
     flex-grow: 0;
+
+   
 }
 
 @media only screen and (max-width: 600px) {
