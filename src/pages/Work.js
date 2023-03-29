@@ -4,7 +4,7 @@ import Guitarpng from "../assets/guitar-box.png"
 
 function Work() {
   return (
-    <div className='top-container'>
+    <div className='top-container-work'>
       <h5>LATEST PROJECTS</h5>
       <div className='row'>
       <div className='column'><img src={Guitarpng}></img>

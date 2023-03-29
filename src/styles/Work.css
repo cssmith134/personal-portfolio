@@ -1,13 +1,14 @@
-.top-container  {
+.top-container-work  {
     width: 1500px;
 
-
+    align-items: center;
 
     /* Inside auto layout */
 
     flex: none;
     order: 3;
     flex-grow: 0;  
+    padding-left: 200px;
 }
 
 h5 {
